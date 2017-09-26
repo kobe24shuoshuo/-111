@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_5">
+
+    <ImageView
+        android:id="@+id/iv_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/iv_snow_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/snow_bg"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_emit_center"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="-400dp"
+        android:layout_marginTop="-20dp"/>
+
+    <TextView
+        android:id="@+id/tv_emit_cloud_left"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="-660dp"
+        android:layout_marginTop="-20dp"/>
+
+    <TextView
+        android:id="@+id/tv_emit_cloud_right"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="-660dp"
+        android:layout_marginTop="-20dp"/>
+
+    <TextView
+        android:id="@+id/tv_emit_center1"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="-330dp"
+        android:layout_marginTop="-200dp"/>
+
+    <ImageView
+        android:id="@+id/star_anim1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="100dp"
+        android:src="@mipmap/star_big"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/star_anim2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:src="@mipmap/star_big"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/star_anim3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="200dp"
+        android:src="@mipmap/star_small"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_emit_center2"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="-360dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/tv_emit_top1"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-200dp"/>
+
+    <TextView
+        android:id="@+id/tv_emit_top2"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-200dp"/>
+
+    <TextView
+        android:id="@+id/tv_emit_top3"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-200dp"/>
+
+    <TextView
+        android:id="@+id/tv_emit_top4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="-200dp"/>
+
+    <FrameLayout
+        android:id="@+id/fl_snow_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_snow_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/light_line1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="-1280px"
+                android:layout_marginTop="-1280px"
+                android:src="@mipmap/sun"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <!--顶部导航栏-->
+    <include layout="@layout/top_navigation_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_warning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_warning"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_weight="1"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:text="根据最新气象资料分析，上海市气象台2017年3月20日14点00分解除大雨红色预警！！！"
+                android:textColor="#CCFFFFFF"
+                android:textSize="10sp"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/iv_warning"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/ic_close"
+                android:visibility="invisible"/>
+        </LinearLayout>
+
+        <com.gome.weather.widget.LazyViewPager
+            android:id="@+id/vp_mainactivity"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:overScrollMode="never">
+
+        </com.gome.weather.widget.LazyViewPager>
+
+        <LinearLayout
+            android:id="@+id/ll_main_dot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="38dp"
+            android:gravity="center"
+            android:orientation="horizontal"/>
+    </LinearLayout>
+
+</FrameLayout>

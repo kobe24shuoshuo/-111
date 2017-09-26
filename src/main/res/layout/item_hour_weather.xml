@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="8.2dp">
+
+
+    <TextView android:id="@+id/txt_hour_time"
+        android:text="现在"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="#CCFFFFFF"/>
+
+    <ImageView android:src="@mipmap/ic_cloud_30dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="9dp"
+        android:id="@+id/imageView" />
+
+    <TextView android:id="@+id/txt_hour_weather"
+        android:text="9°"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="6dp"
+        android:textColor="#FFFFFFFF"/>
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_city"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_5"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="com.gome.weather.activity.AddCityActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/img_add_city_back"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_arrow_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/img_add_city_back"
+            android:text="@string/add_city"
+            android:textColor="#FFFFFFFF"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <com.gome.weather.widget.SearchView
+        android:id="@+id/search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout android:id="@+id/ll_recommend_city"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFFFF"
+            android:textSize="14sp"
+            android:text="@string/city_recommended"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ffffff"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:scrollbars="none"
+        android:id="@+id/lv_city_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+    </ListView>
+
+    <GridView
+        android:id="@+id/gr_city_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:scrollbars="none"
+        />
+
+    <TextView android:id="@+id/txt_search_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/no_search_result"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#CCFFFFFF"
+        android:textSize="12sp"
+        android:visibility="gone"/>
+</LinearLayout>

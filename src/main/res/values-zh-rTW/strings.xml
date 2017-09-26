@@ -1,0 +1,187 @@
+<resources>
+    <string name="app_name">"天氣"</string>
+    <string name="notifyTitle"/>
+    <string name="notifyMsg"/>
+    <string name="cancel"/>
+    <string name="setting"/>
+
+    <string name="sunny">"晴"</string>
+    <string name="mostly_sunny">"大部分晴"</string>
+    <string name="partly_sunny">"多雲"</string>
+    <string name="hazy_sunshine">"輕度霧霾"</string>
+    <string name="mostly_cloudy">"多雲"</string>
+    <string name="cloudy">"多雲"</string>
+    <string name="dreary">"陰"</string>
+    <string name="fog">"霧"</string>
+    <string name="showers">"陣雨"</string>
+    <string name="light_rain">"小雨"</string>
+    <string name="rain">"中雨"</string>
+    <string name="thunderstorms">"雷雨"</string>
+    <string name="light_snow">"小雪"</string>
+    <string name="mostly_cloudy_storms">"多雲轉雨"</string>
+    <string name="partly_sunny_storms">"多雲轉暴雨"</string>
+    <string name="flurries">"多雲"</string>
+    <string name="mostly_cloudy_flurries">"陣雪"</string>
+    <string name="partly_sunny_flurries">"多雲"</string>
+    <string name="snow">"中雪"</string>
+    <string name="mostly_cloudy_snow">"多雲"</string>
+    <string name="ice">"凍雨"</string>
+    <string name="sleet">"雨夾雪"</string>
+    <string name="freezing_rain">"凍雨"</string>
+    <string name="rain_and_snow">"雨夾雪"</string>
+    <string name="hot">"晴高溫"</string>
+    <string name="cold">"晴低溫"</string>
+    <string name="windy">"風"</string>
+    <string name="clear">"晴夜"</string>
+    <string name="mostly_clear">"多雲"</string>
+    <string name="partly_cloudy">"多雲夜"</string>
+    <string name="intermittent_clouds">"多雲"</string>
+    <string name="hazy_moonlight">"輕度霧霾"</string>
+    <string name="partly_cloudy_showers">"陣雨"</string>
+    <string name="mostly_cloudy_showers">"雷雨"</string>
+    <string name="Partly_cloudy_storms">"雷雨"</string>
+    <string name="Mostly_cloudy_flurries">"陣雪"</string>
+    <string name="Mostly_cloudy_snow">"中雪"</string>
+    <string name="thunderstorm_hail">"雷陣雨伴有冰雹"</string>
+    <string name="heavy_rain">"大雨"</string>
+    <string name="storm">"暴雨"</string>
+    <string name="heavy_storm">"大暴雨"</string>
+    <string name="severe_storm">"特大暴雨"</string>
+    <string name="heavy_snow">"大雪"</string>
+    <string name="snow_storm">"暴雪"</string>
+    <string name="dust_storm">"沙塵暴"</string>
+    <string name="light2moderate_rain">"小到中雨"</string>
+    <string name="moderate2heavy_rain">"中到大雨"</string>
+    <string name="heavy2sever_rain">"大到暴雨"</string>
+    <string name="storm2heavy_rain">"暴雨到大暴雨"</string>
+    <string name="heavy2sever_rain1">"大暴雨到特大暴雨"</string>
+    <string name="light2moderate_snow">"小到中雪"</string>
+    <string name="moderate2heavy_snow">"中到大雪"</string>
+    <string name="heavy2sever_snow">"大到暴雪"</string>
+    <string name="dust">"浮沉"</string>
+    <string name="sand">"揚沙"</string>
+    <string name="sandstorm">"強沙塵暴"</string>
+    <string name="dense_foggy">"濃霧"</string>
+    <string name="moderate_foggy">"強濃霧"</string>
+    <string name="haze">"霾"</string>
+    <string name="moderate_haze">"中度霾"</string>
+    <string name="heavy_haze">"重度霾"</string>
+    <string name="sever_haze">"嚴重霾"</string>
+    <string name="heavy_foggy">"大霧"</string>
+    <string name="sever_foggy">"特強濃霧"</string>
+    <string name="nothing">"無"</string>
+
+    <string name="excellent">優</string>
+    <string name="fine">良</string>
+    <string name="mild_concentration">輕度污染</string>
+    <string name="middle_level_pollution">中度污染</string>
+    <string name="heavy_pollution">重度污染</string>
+    <string name="severe_contamination">嚴重污染</string>
+
+    <string name="sunday">週日</string>
+    <string name="monday">週一</string>
+    <string name="tuesday">週二</string>
+    <string name="wednesday">週三</string>
+    <string name="thursday">週四</string>
+    <string name="friday">週五</string>
+    <string name="saturday">週六</string>
+    <string name="today">今天</string>
+
+
+    //风力等级和风向
+    <string name="zero_level">"0級"</string>
+    <string name="one_level">"1級"</string>
+    <string name="two_level">"2級"</string>
+    <string name="three_level">"3級"</string>
+    <string name="four_level">"4級"</string>
+    <string name="five_level">"5級"</string>
+    <string name="six_level">"6級"</string>
+    <string name="seven_level">"7級"</string>
+    <string name="eight_level">"8級"</string>
+    <string name="nine_level">"9級"</string>
+    <string name="ten_level">"10級"</string>
+    <string name="eleven_level">"11級"</string>
+    <string name="twelve_level">"12級"</string>
+    <string name="wind_power">"風力"</string>
+    <string name="wind_direction">"風向"</string>
+    <string name="wind_power_direction">"風力風向"</string>
+
+    //管理城市和编辑城市
+    <string name="manager_city">"管理城市"</string>
+    <string name="compile_city">"編輯城市"</string>
+    <string name="could_not_add_more_cities">"無法添加更多城市"</string>
+
+    <string name="accuWeather">中國天氣通</string>
+    <string name="now">現在</string>
+    <string name="sun_rise">日出</string>
+    <string name="sun_set">日落</string>
+
+    <string name="forecast_24hour">24小時天氣預報</string>
+    <string name="forecast_5day">5日天氣預報</string>
+    <string name="comfort_level">舒適度</string>
+    <string name="humidity">空氣濕度</string>
+    <string name="feel_likes">體感溫度</string>
+    <string name="uv_index">紫外線指數</string>
+
+    //widget
+    <string name="mm_dd">MM月dd日  EEEE</string>
+    <string name="apm_am">上午</string>
+    <string name="apm_pm">下午</string>
+    //设置界面
+    <string name="setting_activity">"設置"</string>
+    <string name="temperature_unit">"溫度單位"</string>
+    <string name="auto_update">"自動更新"</string>
+    <string name="update_interval">"更新間隔"</string>
+    <string-array name="hours">
+        <item>1小时</item>
+        <item>2小时</item>
+        <item>6小时</item>
+        <item>12小时</item>
+        <item>24小时</item>
+    </string-array>
+    <string name="make_sure">"確定"</string>
+    <string name="make_cancel">"取消"</string>
+    <string name="net_word_setting">"網絡服務不可用, 請進入“設置”檢查"</string>
+
+    //添加城市界面
+    <string name="the_city_has_been_added">"該城市已經添加"</string>
+    //editText提示语
+    <string name="hint">搜索城市(中文)</string>
+    <string name="add_city">添加城市</string>
+    <string name="city_recommended">推薦城市</string>
+    <string name="city_added_toast">該城市已經添加</string>
+
+    //紫外线等级
+    <string name="uv_low">低</string>
+    <string name="uv_moderate">中等</string>
+    <string name="uv_high">高</string>
+    <string name="uv_very_high">甚高</string>
+    <string name="uv_extreme">極高</string>
+
+    <string name="gps_setting">位置服務不可用，請進入“設置”檢查</string>
+    <string name="no_search_result">沒有匹配的結果，請檢查城市名稱</string>
+    <string name="city_changed">定位城市發生改變</string>
+    <string name="notification_title">天氣</string>
+    <string name="rain_notification">明天會有暴雨，請注意防範！</string>
+    <string name="snow_notification">明天會有大雪，請注意防範！</string>
+    <string name="wind_notification">明日會有強風，請注意防範！</string>
+    <string name="uv_index_notification">明日紫外線指數過高，請注意防範！</string>
+    <string name="tem_rise_notification">明天大幅升溫，請適當穿衣！</string>
+    <string name="tem_down_notification">明日大幅降溫，請注意保暖！</string>
+
+    <string name="no_more_city">不能添加更多的城市</string>
+
+    <string-array name="time">
+        <item>天氣信息已過期</item>
+        <item>昨天</item>
+        <item>前天</item>
+        <item>個小時前</item>
+        <item>分鐘前</item>
+        <item>剛剛</item>
+        <item>更新</item>
+        <item>發佈</item>
+        <item>最近更新時間</item>
+        <item>釋放刷新</item>
+        <item>下拉刷新</item>
+    </string-array>
+</resources>

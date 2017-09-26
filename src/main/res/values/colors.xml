@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF54ABD6</color>
+
+    <color name="date_text_color">#a6ffffff</color>
+    <color name="location_text_color">#b3ffffff</color>
+    <color name="white">#99ffffff</color>
+    <color name="setting_text_color">#4DFFFFFF</color>
+</resources>

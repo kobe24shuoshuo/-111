@@ -1,0 +1,189 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="notifyTitle"/>
+    <string name="notifyMsg"/>
+    <string name="cancel"/>
+    <string name="setting"/>
+    //天气类型
+    <string name="sunny">"Sunny"</string>
+    <string name="mostly_sunny">"Cloudy"</string>
+    <string name="partly_sunny">"sunny"</string>
+    <string name="hazy_sunshine">"Hazy"</string>
+    <string name="mostly_cloudy">"cloudy"</string>
+    <string name="cloudy">"Cloudy"</string>
+    <string name="dreary">"Overcast"</string>
+    <string name="fog">"Foggy"</string>
+    <string name="showers">"Shower"</string>
+    <string name="light_rain">"Light rain"</string>
+    <string name="rain">"Rain"</string>
+    <string name="thunderstorms">"Thunder"</string>
+    <string name="light_snow">"Light snow"</string>
+    <string name="mostly_cloudy_storms">"Mostly cloudy/storms"</string>
+    <string name="partly_sunny_storms">"Partly sunny/storms"</string>
+    <string name="flurries">"Flurries"</string>
+    <string name="mostly_cloudy_flurries">"Mostly cloudy/flurries"</string>
+    <string name="partly_sunny_flurries">"Partly sunny/flurries"</string>
+    <string name="snow">"Snow"</string>
+    <string name="mostly_cloudy_snow">"Cloudy"</string>
+    <string name="ice">"Ice"</string>
+    <string name="sleet">"Sleet"</string>
+    <string name="freezing_rain">"Freezing rain"</string>
+    <string name="rain_and_snow">"Sleet"</string>
+    <string name="hot">"Hot"</string>
+    <string name="cold">"Cold"</string>
+    <string name="windy">"Windy"</string>
+    <string name="clear">"Clear"</string>
+    <string name="mostly_clear">"Clear"</string>
+    <string name="partly_cloudy">"Cloudy"</string>
+    <string name="intermittent_clouds">"Clouds"</string>
+    <string name="hazy_moonlight">"Hazy"</string>
+    <string name="partly_cloudy_showers">"Cloudy"</string>
+    <string name="mostly_cloudy_showers">"Thunder"</string>
+    <string name="Partly_cloudy_storms">"Thunder"</string>
+    <string name="Mostly_cloudy_flurries">"Flurries"</string>
+    <string name="Mostly_cloudy_snow">"Cloudy"</string>
+    <string name="thunderstorm_hail">"Thunderstorm hail"</string>
+    <string name="heavy_rain">"Rain"</string>
+    <string name="storm">"Storm"</string>
+    <string name="heavy_storm">"Storm"</string>
+    <string name="severe_storm">"Storm"</string>
+    <string name="heavy_snow">"Snow"</string>
+    <string name="snow_storm">"Snow storm"</string>
+    <string name="dust_storm">"Dust storm"</string>
+    <string name="light2moderate_rain">"Rain"</string>
+    <string name="moderate2heavy_rain">"Rain"</string>
+    <string name="heavy2sever_rain">"Rain"</string>
+    <string name="storm2heavy_rain">"Rain"</string>
+    <string name="heavy2sever_rain1">"Rain"</string>
+    <string name="light2moderate_snow">"Snow"</string>
+    <string name="moderate2heavy_snow">"Snow"</string>
+    <string name="heavy2sever_snow">"Snow"</string>
+    <string name="dust">"Dust"</string>
+    <string name="sand">"Sand"</string>
+    <string name="sandstorm">"Sandstorm"</string>
+    <string name="dense_foggy">"Foggy"</string>
+    <string name="moderate_foggy">"Foggy"</string>
+    <string name="haze">"Haze"</string>
+    <string name="moderate_haze">"Haze"</string>
+    <string name="heavy_haze">"Haze"</string>
+    <string name="sever_haze">"Haze"</string>
+    <string name="heavy_foggy">"Foggy"</string>
+    <string name="sever_foggy">"Foggy"</string>
+    <string name="nothing">"Nothing"</string>
+
+    //空气质量
+    <string name="excellent">Excellent</string>
+    <string name="fine">Fine</string>
+    <string name="mild_concentration">Mild concentration</string>
+    <string name="middle_level_pollution">Middle level pollution</string>
+    <string name="heavy_pollution">Heavy pollution</string>
+    <string name="severe_contamination">Severe contamination</string>
+    //日期
+    <string name="sunday">Sun</string>
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <string name="today">Today</string>
+
+    //风力等级和风向
+    <string name="zero_level">"Calm"</string>
+    <string name="one_level">"Light Air"</string>
+    <string name="two_level">"Light Breeze"</string>
+    <string name="three_level">"Gentle Breeze"</string>
+    <string name="four_level">"Moderate Breeze"</string>
+    <string name="five_level">"Fresh Breeze"</string>
+    <string name="six_level">"Strong Breeze"</string>
+    <string name="seven_level">"Moderate Gale"</string>
+    <string name="eight_level">"Fresh Gale"</string>
+    <string name="nine_level">"Strong Gale"</string>
+    <string name="ten_level">"Whole Gale"</string>
+    <string name="eleven_level">"Storm"</string>
+    <string name="twelve_level">"Hurricane"</string>
+    <string name="wind_power">"Speed"</string>
+    <string name="wind_direction">"Direction"</string>
+    <string name="wind_power_direction">"Wind"</string>
+
+    //管理城市和编辑城市
+    <string name="manager_city">"ManagerCity"</string>
+    <string name="compile_city">"CompileCity"</string>
+    <string name="could_not_add_more_cities">"Could not add more cities"</string>
+
+    <string name="accuWeather">AccuWeather</string>
+
+    <string name="forecast_24hour">Forecast for 24hours</string>
+    <string name="forecast_5day">Forecast for 5days</string>
+    <string name="comfort_level">Comfort level</string>
+    <string name="humidity">Humidity</string>
+    <string name="feel_likes">Feels like</string>
+    <string name="uv_index">UV index</string>
+
+    <string name="now">Now</string>
+    <string name="sun_rise">Rise</string>
+    <string name="sun_set">Set</string>
+
+    //widget
+    <string name="mm_dd">MMMM  dd  E</string>
+    <string name="apm_am">AM</string>
+    <string name="apm_pm">PM</string>
+
+    //设置界面
+    <string name="setting_activity">"Setting"</string>
+    <string name="temperature_unit">"Temperature unit"</string>
+    <string name="auto_update">"Auto update"</string>
+    <string name="update_interval">"Update interval"</string>
+    <string-array name="hours">
+        <item>Every 1 hour</item>
+        <item>Every 2 hours</item>
+        <item>Every 6 hours</item>
+        <item>Every 12 hours</item>
+        <item>Every 24 hours</item>
+    </string-array>
+    <string name="make_sure">"Confirm"</string>
+    <string name="make_cancel">"Cancel"</string>
+    <string name="net_word_setting">"Internet service is not available, please enter setup to check"</string>
+    //添加城市界面
+    <string name="the_city_has_been_added">"The city has been added"</string>
+    //editText提示语
+    <string name="hint">CitySearch(Chinese)</string>
+    <string name="add_city">Add City</string>
+    <string name="city_recommended">City Recommended</string>
+    <string name="city_added_toast">The city has been added</string>
+
+    //紫外线等级
+    <string name="uv_low">low</string>
+    <string name="uv_moderate">mid</string>
+    <string name="uv_high">high</string>
+    <string name="uv_very_high">high</string>
+    <string name="uv_extreme">extreme</string>
+
+    <string name="gps_setting">Location service is not available, please enter setup to check</string>
+    <string name="no_search_result">There is no matching result, please check the name of the city</string>
+    <string name="city_changed">City</string>
+    <string name="notification_title">Weather</string>
+    <string name="rain_notification"> There will be heavy rain tomorrow, please pay attention to prevent!</string>
+    <string name="snow_notification">There will be heavy snow tomorrow, please pay attention to prevent!</string>
+    <string name="wind_notification">There will be strong wind tomorrow, please pay attention to prevent!</string>
+    <string name="tem_rise_notification">Tomorrow, a substantial warming, please appropriate clothing!</string>
+    <string name="tem_down_notification">Tomorrow a substantial cooling, please note warm!</string>
+    <string name="uv_index_notification">Tomorrow, the UV index is too high, please pay attention to prevent!</string>
+
+    <string name="no_more_city">no more city can been added</string>
+
+    <string-array name="time">
+        <item>The weather information has expired</item>
+        <item>Update yesterday \</item>
+        <item>Update 2 yesterday ago \</item>
+        <item> hours ago \</item>
+        <item> minutes ago \</item>
+        <item>Just now</item>
+        <item>Update</item>
+        <item>released</item>
+        <item>Last update: \</item>
+        <item>Release the refresh</item>
+        <item>Drag down to refresh</item>
+    </string-array>
+
+</resources>

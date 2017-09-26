@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:padding="5dp">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="8">
+
+        <TextView
+            android:id="@+id/txt_manager_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="#FFFFFFFF"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:id="@+id/img_location"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/txt_manager_city"
+            android:src="@drawable/ic_location"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/txt_manager_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="#FFFFFFFF"
+            android:textSize="14sp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:lines="1"
+            android:layout_alignRight="@+id/txt_manager_temperature"
+            android:id="@+id/txt_air_cloud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_manager_temperature"
+            android:layout_marginTop="4dp"
+            android:textColor="#FFFFFFFF"
+            android:textSize="12sp"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>
